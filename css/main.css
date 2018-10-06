@@ -65,3 +65,24 @@ body {
     border-color: #ddd;
     color: white;
 }
+
+
+
+.question {
+  width: 350px;
+  background-color: #808080cf;
+  position: fixed;
+  padding: 15px !important;
+  border-radius: 5px;
+}
+
+.question label {
+  font-size: 22px !important;
+}
+
+
+.next.btn {
+  float: right;
+  margin-top: 15px;
+}
+
