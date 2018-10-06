@@ -71,8 +71,8 @@ body {
 .question {
   width: 350px;
   background-color: #808080cf;
-  position: fixed;
-  padding: 15px !important;
+  position: relative;
+  padding: 15px 15px 65px 15px !important;
   border-radius: 5px;
 }
 

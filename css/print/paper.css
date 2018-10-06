@@ -200,4 +200,24 @@
 		font-size: 0.8em;
 	}
 
+
+
+.question {
+  width: 350px;
+  background-color: #808080cf;
+  position: relative;
+  padding: 15px 15px 65px 15px !important;
+  border-radius: 5px;
+}
+
+.question label {
+  font-size: 22px !important;
+}
+
+
+.next.btn {
+  float: right;
+  margin-top: 15px;
+}
+
 }
