@@ -66,8 +66,6 @@ body {
     color: white;
 }
 
-
-
 .question {
   width: 350px;
   background-color: #808080cf;
@@ -76,13 +74,35 @@ body {
   border-radius: 5px;
 }
 
-.question label {
+.question .question-text {
   font-size: 22px !important;
+  margin: 0px 0px 15px;
 }
 
+.question label {
+  font-size: 28px !important;
+}
+
+.question form {
+  text-align: left;
+}
+
+.question .form-check {
+  padding-left: 1.25rem !important;
+}
+
+.question .form-check-input {
+  margin-top: 1.9rem !important;
+  margin-left: -1.25rem !important;
+}
 
 .next.btn {
   float: right;
+  margin-top: 15px;
+}
+
+.prev.btn {
+  float: left;
   margin-top: 15px;
 }
 

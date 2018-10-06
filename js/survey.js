@@ -3,7 +3,7 @@
 // - https://github.com/hakimel/reveal.js#dependencies
 Reveal.initialize({
   controls: false,
-  keyboard: false,
+  keyboard: true,
   transition: 'slide', // none/fade/slide/convex/concave/zoom
 
   dependencies: [
@@ -15,7 +15,9 @@ Reveal.initialize({
 });
 
 $('.next').click(function() {
-  console.log("next");
   Reveal.next();
 });
 
+$('.prev').click(function() {
+  Reveal.prev();
+});
