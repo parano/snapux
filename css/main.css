@@ -96,7 +96,7 @@ font-size: 16px;
   /*background-color: #808080cf;*/
   background-color: white;
   position: relative;
-  padding: 14px 10px 57px 11px !important;
+  padding: 15px 10px 57px 11px !important;
   border-radius: 5px;
   color: grey;
   box-shadow: 1px 1px 1px 0px rgba(255, 255, 255, 0.57), 1px 2px 4px 1px rgba(0, 0, 0, 0.8);
@@ -107,6 +107,19 @@ font-size: 16px;
   margin: 0px 0px 10px;
   color: grey;
   text-align: left;
+}
+
+
+.question .question-text .i {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  margin-right: 7px;
+  margin-left: 4px;
+  background-color: rgba(66, 159, 253, 1);
 }
 
 .question label {
