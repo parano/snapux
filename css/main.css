@@ -3,6 +3,14 @@ body {
 
 }
 
+.start-survey{
+	background-color: #fff;
+	width: 450px;
+	padding: 25px!important;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
 .body-container{
 	  background-image: url('../img/background-art.png');
  background-size: 100%;
@@ -23,7 +31,7 @@ font-size: 16px;
 }
 
 .popup-inner{
-	width: 300px;
+	width: 300px;  
 	margin: 0 auto;
 }
 
@@ -91,7 +99,7 @@ font-size: 16px;
     display: block
 }
 .btn-default {
-     background-color: #8cc34c;
+     background-color: #419ffd;
     border-color: #8cc34c;
     border-color: #ddd;
     color: white;
@@ -99,40 +107,19 @@ font-size: 16px;
 
 .question {
   width: 350px;
-  /*background-color: #808080cf;*/
-  background-color: white;
+  background-color: #808080cf;
   position: relative;
-  padding: 15px 10px 57px 11px !important;
+  padding: 15px 15px 65px 15px !important;
   border-radius: 5px;
-  color: grey;
-  box-shadow: 1px 1px 1px 0px rgba(255, 255, 255, 0.57), 1px 2px 4px 1px rgba(0, 0, 0, 0.8);
 }
 
 .question .question-text {
-  font-size: 16px !important;
-  margin: 0px 0px 10px;
-  color: grey;
-  text-align: left;
-}
-
-
-.question .question-text .i {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
-  text-align: center;
-  color: white;
-  margin-right: 7px;
-  margin-left: 4px;
-  background-color: rgba(66, 159, 253, 1);
+  font-size: 22px !important;
+  margin: 0px 0px 15px;
 }
 
 .question label {
-  font-size: 14px !important;
-  color: grey;
-  text-align: left;
-  width: 91%;
+  font-size: 28px !important;
 }
 
 .question form {
@@ -140,51 +127,21 @@ font-size: 16px;
 }
 
 .question .form-check {
-  padding-left: 1.95rem !important;
-  line-height: 16px;
-  padding: 1px 4px 8px 10px;
-  border-radius: 5px;
-}
-
-
-.question .form-check:hover {
-  background-color: #e0e0e0;
+  padding-left: 1.25rem !important;
 }
 
 .question .form-check-input {
-  position: static;
-  /*margin-top: 1.9rem !important;*/
-  /*margin-left: -1.25rem !important;*/
-}
-
-.question textarea {
-  overflow: auto;
-  outline: none;
-	border: 0px;
-	padding: 5px;
-  font-family: Tahoma, sans-serif;
-  background-color: rgb(206, 206, 206);
-  color: #616161;
-  resize: none;
-  padding: 5px 10px;
-}
-
-
-.question textarea:focus {
-  outline: none;
-  box-shadow: none;
+  margin-top: 1.9rem !important;
+  margin-left: -1.25rem !important;
 }
 
 .next.btn {
   float: right;
-  margin-top: 9px;
-  color: white;
-  background-color: rgba(66, 159, 253, 1);
-  padding: 6px 32px;
+  margin-top: 15px;
 }
 
 .prev.btn {
   float: left;
-  margin-top: 9px;
-  margin-left: -7px;
+  margin-top: 15px;
 }
+
