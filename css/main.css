@@ -1,8 +1,14 @@
 body {
-  background-image: url('../img/pattern-bg.png');
+
+
+}
+
+.body-container{
+	  background-image: url('../img/background-art.png');
+ background-size: 100%;
   padding-top: 0rem;
   background-color: #ededed;
-
+  height:100vh;
 }
 
 .starter-template {
