@@ -15,6 +15,10 @@ Reveal.initialize({
   ]
 });
 
+$('.start').click(function() {
+  Reveal.next();
+});
+
 $('.next').click(function() {
   Reveal.next();
 });
