@@ -93,6 +93,8 @@
                             if (x.find('img').length === 0) {
                                 x.append('<i class="fas fa-edit" style="float: right"></i>');
                             }
+
+                            x.css({top: x.position().top+40});
                                 
                             //make_draggable($(".item-" + counts[0]));
                             //jq(".imgSize-" + counts[0]).resizable(resizeOpts);
@@ -143,7 +145,7 @@
                 </div>
             </nav>
             <br/>
-            <div style="float: left; position:fixed; height: 80%; width:320px; border-right: 1px solid #dadada;">
+            <div style="float: left; position: fixed">
                 <div class="dropdown" style="margin-bottom: 20px;">
                     <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 200px">
                         Verified Question Bank
@@ -215,7 +217,7 @@
                     </div>
                 </div>
             </div>
-            <div class="droppable" style="float: left; margin-left: 440px">
+            <div class="droppable" style="float: right; padding-right: 200px">
                 <img src='img/uploads/1.png'/>
                 <br/>
                 <br/>
