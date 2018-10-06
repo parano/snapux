@@ -96,21 +96,21 @@ font-size: 16px;
   /*background-color: #808080cf;*/
   background-color: white;
   position: relative;
-  padding: 15px 15px 65px 15px !important;
+  padding: 14px 10px 57px 11px !important;
   border-radius: 5px;
   color: grey;
-  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.12), 1px 2px 4px 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 1px 0px rgba(255, 255, 255, 0.57), 1px 2px 4px 1px rgba(0, 0, 0, 0.8);
 }
 
 .question .question-text {
-  font-size: 18px !important;
-  margin: 0px 0px 15px;
+  font-size: 16px !important;
+  margin: 0px 0px 10px;
   color: grey;
   text-align: left;
 }
 
 .question label {
-  font-size: 20px !important;
+  font-size: 14px !important;
   color: grey;
   text-align: left;
   width: 91%;
@@ -122,8 +122,8 @@ font-size: 16px;
 
 .question .form-check {
   padding-left: 1.95rem !important;
-  line-height: 25px;
-  padding: 1px 5px 8px 10px;
+  line-height: 16px;
+  padding: 1px 4px 8px 10px;
   border-radius: 5px;
 }
 
@@ -150,9 +150,15 @@ font-size: 16px;
   padding: 5px 10px;
 }
 
+
+.question textarea:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 .next.btn {
   float: right;
-  margin-top: 15px;
+  margin-top: 9px;
   color: white;
   background-color: rgba(66, 159, 253, 1);
   padding: 6px 32px;
@@ -160,6 +166,6 @@ font-size: 16px;
 
 .prev.btn {
   float: left;
-  margin-top: 15px;
+  margin-top: 9px;
   margin-left: -7px;
 }
