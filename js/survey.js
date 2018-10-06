@@ -21,3 +21,10 @@ $('.next').click(function() {
 $('.prev').click(function() {
   Reveal.prev();
 });
+
+$('textarea').focus(function() {
+  $(this).css({
+    "background-color": "rgb(206, 206, 206)",
+    "color": "#616161"
+  });
+});
