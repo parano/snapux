@@ -171,10 +171,11 @@
   box-sizing: border-box; }
 
 .dropzone {
-  min-height: 150px;
+  height: 100px;
+  color: #f6f6f6;
+  font-size: 1px;
   border: 0px solid rgba(0, 0, 0, 0.3);
-  background: #efefef;
-  padding: 20px 20px; }
+}
   .dropzone.dz-clickable {
     cursor: pointer; }
     .dropzone.dz-clickable * {
@@ -194,7 +195,7 @@
     position: relative;
     display: inline-block;
     vertical-align: top;
-    margin: 16px;
+    margin: 8px;
     min-height: 100px; }
     .dropzone .dz-preview:hover {
       z-index: 1000; }

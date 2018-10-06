@@ -1,16 +1,41 @@
 body {
+  background-image: url('../img/pattern-bg.png');
   padding-top: 0rem;
+  background-color: #ededed;
+
 }
+
 .starter-template {
   padding: 1rem 1.5rem;
   text-align: center;
 }
 
 
+.small-text-center{
+font-size: 16px;
+
+}
+
+.popup-inner{
+	width: 300px;
+	margin: 0 auto;
+}
+
+.center-window {
+	margin: 0 auto;
+	width: 500px;
+	height: 550px;
+	margin-top: 80px;
+	background-image: url('../img/window.png');
+	text-align: center;
+}
+
 /* DROPBOX */
 
 .dropzone-holder{
-	width: 500px;
+	width: 400px;
+	padding-top: 10px;
+	height: 170px;
 	margin: 0 auto;
 }
 
