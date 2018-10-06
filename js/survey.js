@@ -4,7 +4,8 @@
 Reveal.initialize({
   controls: false,
   keyboard: true,
-  transition: 'slide', // none/fade/slide/convex/concave/zoom
+  transition: 'slide',
+  viewDistance: 100,
 
   dependencies: [
     { src: 'plugin/markdown/marked.js' },

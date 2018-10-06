@@ -18,76 +18,37 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <!--
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="https://getbootstrap.com/docs/4.1/examples/starter-template/#">Visual Surveys</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
 
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav mr-auto">
+  <div class="body-container">
 
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="https://example.com/" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-          <div class="dropdown-menu" aria-labelledby="dropdown01">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+    <main role="main" class="container">
+        <div class="starter-template"></div>
+
+      <div class="center-window">
+        <div style="height: 160px"></div>
+          <div class="popup-inner">
+            <p class="small-text-center" >Drag and drop your files below to begin creating your survey</p>
           </div>
-        </li>
-      </ul>
-      
-    </div>
+        <div class="dropzone-holder">
+          <script src="js/dropzone.js"></script>
+          <form action="/upload-target" class="dropzone"></form>
+        </div>
+        
+        <a href="create.html"> <button class="btn btn-lg btn-default" style="margin-top: 15px; width: 260px; font-size: 18px">UPLOAD</button></a> 
+      </div>
   
-  </nav>
-
-  -->
-<div style="width: 100%; background-color: #282828">
-<center><img src="img/logo.png" style="margin: 0 auto; padding-top: 100px; padding-bottom: 50px"></img></center>
-<center><img src="img/downarrow.png" style="width: 100%"></img></center>
-</div>
-  <main role="main" class="container">
-
-    <div class="starter-template">
-      <p class="lead" style="width: 400px; margin: 0 auto; padding-bottom: 20px">Upload your files below to get started</p>
-
- 
-<div class="dropzone-holder">
-     <script src="js/dropzone.js"></script>
-     <form action="/upload-target" class="dropzone"></form>
-</div>
-
-
-
-  
-     <a href="create.html"> <button class="btn btn-lg btn-default" style="margin-top: 15px; width: 260px">GET STARTED</button></a>
-    </div>
-
     <!DOCTYPE html>
 
-<meta charset="utf-8">
+    <meta charset="utf-8">
 
+    </main><!-- /.container -->
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
 
+  </div>
 
-
-
-
-  </main><!-- /.container -->
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <script src="js/main.js"></script>
 </body>
 </html>
